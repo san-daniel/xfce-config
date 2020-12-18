@@ -11,6 +11,8 @@ mi configuración del escritorio Xfce
 
 - Conky
 
+- [Rofi + Themes](https://github.com/adi1090x/rofi) 
+
 - Spotify + [Spicetify](https://github.com/khanhas/spicetify-cli)
 
 - Complementos del Panel: Para más información sobre personalizar el panel  de xfce [aqui](https://docs.xfce.org/xfce/xfce4-panel/theming)
@@ -35,6 +37,7 @@ mi configuración del escritorio Xfce
 
 
 
+![xfce2](img/escri2.png)
 
 
 
