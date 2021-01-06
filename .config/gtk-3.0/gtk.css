@@ -1,4 +1,52 @@
 .xfce4-panel {
 	border-radius: 15px;
+	border-top-left-radius:45px;
+	border-top-right-radius:45px;
+
 }
+
+#pager-1 button { 
+	color: #57B2A7;
+	font-size: 17px;
+ }
+#pager-1 button:checked { 
+	color: #D9DA2A; 
+	font-size:17px}
+
+
+/*
+.thunar .view {
+	background-image:url("bg.jpg");
+#pager-1 button { background-color: red; }
+#pager-1 button:checked { background-color: green; }
+#pager-1 button:hover { background-color: yellow; }
+}
+
+*/
+
+
+
+/*
+.xfce4-panel {
+	border-radius: 15px;
+	border-top-left-radius:45px;
+	border-bottom-right-radius: 45px;
+}
+.genmon_valuebutton, .genmon_value{
+	padding-left: 2px;
+	padding-top: 2px;
+	color: #fff;
+	background-color: #222222;
+	border-radius: 20px;
+    padding: 10px;
+	padding-left: 10px;
+	padding-right: 10px;
+	margin: 7px;
+
+}
+
+
+
+
+*/
 

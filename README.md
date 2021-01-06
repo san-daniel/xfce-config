@@ -1,7 +1,7 @@
 # xfce-config
 mi configuración del escritorio Xfce
 
-![xfce](img/escri.png)
+![xfce](img/migif.gif)
 
 - Tema: [Matcha Dark Azul](https://github.com/vinceliuice/Matcha-gtk-theme)
 
@@ -31,9 +31,7 @@ mi configuración del escritorio Xfce
         <span font_desc = "Font Awesome 5 Free Solid   12"  foreground = "#61F6B5"  > sun</span><span font_desc = "Source Code Pro   12"   foreground = "#FFF000" > %I:%M %p</span>   
         ```
     
-    - Pupitre: Tengo 4 Areas de Trabajo con los siguientes caracteres:
 
-        -   ,    , , , 
 
 
 

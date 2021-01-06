@@ -1,0 +1,19 @@
+#!/bin/bash
+
+NCMP=$(mpc | grep "^\[playing\]" | awk '{print $1}')
+NUM_NCMP=$(mpc -f %title% | head -1 | wc -c )
+S_NCMP=$(mpc -f %title% | head -1 | head -c 30)
+
+str=""
+
+if [ "$NCMP" = "[playing]" ]; then        
+    if [ "$NUM_NCMP" -lt 30 ]; then            
+        str=$(mpc -f %title% | head -1)         
+    else
+        str="${S_NCMP}..."
+    fi
+else
+    str=""
+fi
+
+echo "${str}"

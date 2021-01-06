@@ -1,0 +1,10 @@
+#!/bin/bash
+NCMP=$(mpc | grep "^\[playing\]" | awk '{print $1}')
+COVER=/tmp/cover2.png
+
+if [ "$NCMP" = "[playing]" ]; then        
+	echo "true"
+else
+	rm -f "$COVER"
+	echo "false"
+fi

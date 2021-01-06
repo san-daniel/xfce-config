@@ -1,0 +1,23 @@
+#!/bin/bash
+
+
+case "$1" in
+	"bar") 
+		NCMP=$(mpc | grep "^\[playing\]" | awk '{print $1}')
+
+		if [ "$NCMP" = "[playing]" ]; then
+			echo $(mpc -f %time% | grep "\[playing\]" | awk '{print $4}' | cut -d "(" -f 2 | cut -d "%" -f 1)
+		else
+			echo "0"
+		fi
+	;;
+	"length") 
+		NCMP=$(mpc | grep "^\[playing\]" | awk '{print $1}')
+
+		if [ "$NCMP" = "[playing]" ]; then
+			echo $(mpc -f %time% | grep "\[playing\]" | awk '{print $3}')
+		else
+			echo ""
+		fi
+	;;
+esac
